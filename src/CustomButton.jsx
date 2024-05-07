@@ -7,13 +7,11 @@ function CustomButton(){
   }
 
 return(
-    <div className="custom-button">
-        <button>
-            <span>{buttonName}</span>
-            <br />
-            <span>{otherName()}</span>
-        </button>
-    </div>
+  <button type="button" class="btn btn-primary">
+    <span>{buttonName}</span>
+    <br />
+    <span>{otherName()}</span>
+  </button>
 )
 }
 
